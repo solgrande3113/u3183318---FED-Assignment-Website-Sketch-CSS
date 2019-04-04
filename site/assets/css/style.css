@@ -1,0 +1,136 @@
+/* CSS file */
+
+/*This is a CSS rule: a selector followed by curly brackets*/
+
+
+    /** {box-sizing: border-box;}*/
+
+
+@import url("reset.css");
+
+style{
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+}
+
+
+
+div{
+     width: 1479px;
+  padding: 10px;
+  border: 2px solid darkgreen;
+  margin: 0;
+}
+
+p1{
+    font-family: 'EB Garamond', sans;
+    letter-spacing: normal;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+
+li {
+  float: left;
+  background-color: darkgreen;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a hover {
+  background-color: darkgreen;
+}
+
+a:link{color: white}
+a:visited{color:lightgoldenrodyellow}
+a:active{color: aqua}
+a:hover{color:lightgreen}
+
+header{
+        border-left:2;
+        border-right:2;
+        text-align:center;
+        background-color: white;
+        color: #fff;
+        font-family: sans-serif;
+}
+
+
+ header h1{
+        display: inline-block;
+        padding:15px;
+        margin: 10px;
+        font-size: 
+        
+        
+}
+
+
+header nav a{
+    color: #000;
+    background: darkgreen;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+body{
+    font-size: 18px;
+    color: #000;
+    background-color:#fff;
+    background-image: url(../images/.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+     
+}
+
+h1{
+    color:black;
+    font-size:250%;
+    font-family: "Slabo 27px", serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    
+}
+
+h2{
+    padding: -1px;
+    margin-left:0px;
+    margin-top:15px;
+    margin-bottom: 15px;
+
+
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width:450px;
+    height:50%;
+    border: 1px dotted darkgreen;
+    border-radius: 4px;
+    padding:5px;
+
+    
+}
+
+
+
+
+
+
