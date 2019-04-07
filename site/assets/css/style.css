@@ -10,8 +10,32 @@
 
 style{
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 }
 
+
+div1{
+    margin:2px;
+}
+
+.threeinrow{
+    position:relative; 
+    display:inline-block; 
+    width:32%; 
+    max-width: 1479px;
+    margin:0px;
+    padding: 2px;
+}
+
+.twoinrow2{
+    
+    display: inline-block;
+    width:30%;
+    max-width: 1479px;
+    padding:5px;
+    margin:5px;
+    
+}
 
 
 div{
@@ -19,10 +43,11 @@ div{
   padding: 10px;
   border: 2px solid darkgreen;
   margin: 0;
+  
 }
 
 p1{
-    font-family: 'EB Garamond', sans;
+    font-family:'EB Garamond', serif;
     letter-spacing: normal;
     line-height: 1.2;
     letter-spacing: -0.1px;
@@ -72,7 +97,6 @@ header{
         display: inline-block;
         padding:15px;
         margin: 10px;
-        font-size: 
         
         
 }
@@ -89,13 +113,13 @@ header nav a{
 
 body{
     font-size: 18px;
-    color: #000;
-    background-color:#fff;
-    background-image: url(../images/.jpg);
+    color: black;
+    background-color:lightgray;
     background-size: 50%;
     background-repeat: no-repeat;
      
 }
+
 
 h1{
     color:black;
@@ -112,7 +136,7 @@ h2{
     margin-left:0px;
     margin-top:15px;
     margin-bottom: 15px;
-
+    font-family: "Slabo 27px", serif;
 
 }
 
@@ -126,11 +150,12 @@ img{
     border-radius: 4px;
     padding:5px;
 
-    
 }
 
 
-
+p{
+    text-align: center;
+}
 
 
 
